@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/QualityEducation/static/css/main.0e89ca5a.css",
+    "main.js": "/QualityEducation/static/js/main.94f8f504.js",
+    "static/media/img2.png": "/QualityEducation/static/media/img2.47a7b5f6a2e66529049e.png",
+    "static/media/img1.jpg": "/QualityEducation/static/media/img1.73385456a6fee21a3a76.jpg",
+    "static/media/logo.jpg": "/QualityEducation/static/media/logo.ddfbe5549196fe927d1c.jpg",
+    "index.html": "/QualityEducation/index.html",
+    "main.0e89ca5a.css.map": "/QualityEducation/static/css/main.0e89ca5a.css.map",
+    "main.94f8f504.js.map": "/QualityEducation/static/js/main.94f8f504.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e89ca5a.css",
+    "static/js/main.94f8f504.js"
+  ]
+}
