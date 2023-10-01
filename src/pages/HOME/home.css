@@ -1,0 +1,36 @@
+ .image-slideshow img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Default styles for images */
+.image-slideshow img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .image-slideshow img {
+    /* Adjust styles for smaller screens here */
+    max-width: 80%; /* Example: Reduce the image width to 80% */
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .image-slideshow img {
+    /* Adjust styles for even smaller screens here */
+    max-width: 60%; /* Example: Reduce the image width to 60% */
+  }
+}

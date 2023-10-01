@@ -1,0 +1,52 @@
+
+.page {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    position: fixed;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 20rem; 
+    height: auto; 
+}
+
+.started-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (e.g., tablets) */
+    .page {
+        margin-top: 2rem; /* Decrease top margin on smaller screens */
+    }
+
+    .logo img {
+        max-width: 15rem; /* Reduce maximum image width on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjust styles for screens with a maximum width of 576px (e.g., mobile devices) */
+    .page {
+        margin-top: 1rem; /* Further decrease top margin on smaller screens */
+    }
+
+    .logo img {
+        max-width: 10rem; /* Reduce maximum image width on smaller screens */
+    }
+
+    .started-button {
+        font-size: 0.9rem; /* Decrease font size on smaller screens */
+    }
+}

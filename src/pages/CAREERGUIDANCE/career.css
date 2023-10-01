@@ -1,0 +1,108 @@
+.pic{
+    background-image: url("http://csrbox.org/company/proj_img/156033573187583a4d65b29f6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+  }
+  .ff {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.2rem 4rem 1rem 10rem;
+    color:darkmagenta;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .yu{
+      height: 12rem;
+      width: 12rem;
+      border-radius: 250%; 
+      margin:5rem 3rem 0rem 8rem;     
+  }
+  .box
+  { 
+      width:90rem;
+      height:12rem;
+      text-align: center;
+      font-size: 2px;
+      box-shadow:10px 10px 10px 10px rgb(175, 170, 170); 
+      margin: 4rem 6rem 1rem 2rem;      
+  }
+  .flex{
+      display: flex;
+  }
+  .inimg{
+      height:6rem;
+      width:6rem;
+      border-radius: 100%; 
+      margin: -0.8rem 2rem -2rem 2rem;
+  }
+  .iu{
+      font-size: 1.3rem;
+      text-align: center;
+      /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+      color: deeppink;
+  }
+  .quote {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 5rem;
+ /* Adjust the margin-top to create space between the cards and the quote */
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .ff {
+      padding: 1.2rem 2rem 1rem 2rem;
+    }
+    
+    .yu {
+      margin: 2rem 1rem 0rem 2rem;
+    }
+    
+    .box {
+      width: 100%;
+      margin: 2rem 0rem 1rem 0rem;
+    }
+    
+    .inimg {
+      margin: -0.4rem 1rem -1rem 1rem;
+    }
+    
+    .quote {
+      padding-left: 2rem;
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    /* Adjust styles for even smaller screens here */
+    .ff {
+      font-size: 2rem;
+    }
+    
+    .yu {
+      height: 8rem;
+      width: 8rem;
+      margin: 1rem 0rem 0rem 1rem;
+    }
+    
+    .box {
+      width: 100%;
+      margin: 2rem 0rem 1rem 0rem;
+    }
+    
+    .inimg {
+      height: 4rem;
+      width: 4rem;
+      margin: -0.2rem 0.5rem -0.5rem 0.5rem;
+    }
+    
+    .quote {
+      font-size: 1.5rem;
+      padding-left: 1rem;
+    }
+  }
+ 

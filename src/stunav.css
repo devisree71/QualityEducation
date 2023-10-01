@@ -1,0 +1,34 @@
+/* .p{
+    padding: 25px;
+    font-size: 20px;
+    color:aliceblue;
+    /* position: fixed; */
+    .p {
+      padding: 25px;
+      font-size: 20px;
+      color: aliceblue;
+      white-space: nowrap; /* Prevent content from wrapping to the next line */
+      overflow: hidden; /* Hide overflowing content */
+      text-overflow: ellipsis; /* Add ellipsis (...) for hidden content */
+    }
+    
+  .r{
+    padding: 0.8rem;
+    padding-left: 2rem;
+    max-width: 100vw;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+  }
+  @media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .p {
+         padding: 1rem; /*Decrease padding for smaller screens */
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+
+    .r {
+        /* padding: 0.5rem; Decrease padding for smaller screens */
+         padding-left: 1rem; /*Adjust padding for smaller screens */
+    }
+}

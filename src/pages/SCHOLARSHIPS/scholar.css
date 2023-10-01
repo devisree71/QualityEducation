@@ -1,0 +1,50 @@
+/* Styles for Scholar component */
+p {
+padding-top: 2rem;
+    font-size:2rem;
+    text-align: center;
+   
+  }
+  
+  .i {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .q {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .d {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+
+  }
+  
+  .g {
+    font-size:1rem;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .u {
+    /* margin-top: 20px; */
+    margin-left: 2rem;
+    text-align: center;
+  }
+  
+  .ui.very.basic.table {
+    font-size: 30px;
+  }
+  
+  td a {
+    font-size: 20px;
+  }
+  

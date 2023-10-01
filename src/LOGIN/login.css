@@ -1,0 +1,65 @@
+/* Default styles for screens larger than 768px */
+.b {
+    max-width: 100%;
+    width: 24rem; /* Fixed width for the card */
+    box-shadow: 10px 10px 10px 20px rgba(85, 225, 90, 0.283);
+    border-radius: 10px;
+    position: fixed; /* Set to a fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the card */
+    text-align: center;
+    /* z-index: 999; Ensure it's on top of other content */
+  }
+  
+  .bn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    border: none;
+    margin: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: green;
+  }
+  
+  .m {
+    max-width: 100%; /* Add max-width to prevent overflow */
+    padding: 0.5rem 1.8rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .h {
+    padding-top: 1rem;
+    padding-bottom: 0.01rem;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Media Query for screens smaller than 768px (e.g., tablets and mobile devices) */
+  @media (max-width: 768px) {
+    .b {
+      width: 80%; /* Adjust the width for smaller screens */
+      margin: 2rem auto; /* Center the card horizontally */
+    }
+  
+    /* Rest of your styles for smaller screens */
+  }
+  
+  /* Media Query for screens smaller than 480px (e.g., smartphones) */
+  @media (max-width: 480px) {
+    .b {
+      width: 90%; /* Further adjust the width for smaller screens */
+    }
+  
+    /* Rest of your styles for even smaller screens */
+  }
+  
+  /* Additional Media Query for screens larger than 1200px */
+  @media (min-width: 1200px) {
+    .b {
+      width: 30rem; /* Adjust the width for larger screens */
+    }
+  }
+  

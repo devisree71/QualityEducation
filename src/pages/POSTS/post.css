@@ -1,0 +1,77 @@
+.pb {
+    width: 25rem;
+    height: auto; /* Changed height to auto */
+    box-shadow: 10px 10px 10px 10px rgba(85, 225, 90, 0.283);
+    margin-top: 5%;
+    border-radius: 10px;
+    margin: 2rem 5rem 0rem 22rem;
+    text-align: center; /* Center-align content */
+    padding: 1rem;
+  }
+  
+  .md-title,
+  .md-description {
+    width: 100%; /* Make the input and textarea full width */
+    margin: 0.5rem 0;
+  }
+  
+  .pbn,
+  .pbm {
+    margin: 0 0.5rem; /* Adjust margin for buttons */
+    padding: 0.5rem 1rem; /* Add some padding */
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex; /* Arrange buttons in the same line */
+    justify-content: center; /* Center-align buttons horizontally */
+  }
+  
+  .v {
+    width: 20rem;
+    height:3.5rem;
+    box-shadow: 10px 10px 10px 10px rgba(206, 175, 175, 0.283);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin: 50px auto;
+    background-color: green;
+    text-align: center; /* Center-align content */
+    padding: 1rem;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+  }
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .pb {
+      width: 100%; /* Make it full width */
+      margin: 2rem 1rem; /* Adjust margin */
+    }
+    
+    .v {
+      width: 100%; /* Make it full width */
+      margin: 2rem 1rem; /* Adjust margin */
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    /* Adjust styles for even smaller screens here */
+    .pb {
+      width: 100%; /* Make it full width */
+      margin: 1rem 0.5rem; /* Adjust margin */
+    }
+    
+    .v {
+      width: 100%; /* Make it full width */
+      margin: 1rem 0.5rem; /* Adjust margin */
+    }
+  }
