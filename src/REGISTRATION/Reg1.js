@@ -1,7 +1,7 @@
 import React from 'react';
 import './reg.css';
-import Stureg from '../Stureg';
-import Mentorreg from '../Mentorreg';
+import Stureg from './Stureg';
+import Mentorreg from './Mentorreg';
 import { useNavigate } from 'react-router-dom';
 
 export default function As() {
